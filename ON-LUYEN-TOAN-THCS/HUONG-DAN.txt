@@ -1,0 +1,66 @@
+HƯỚNG DẪN SỬ DỤNG - HỆ THỐNG ÔN LUYỆN TOÁN THCS (LỚP 6–9)
+================================================================
+
+1. GIẢI NÉN VÀ CHUẨN BỊ
+   - Giải nén toàn bộ thư mục ON-LUYEN-TOAN-THCS vào một thư mục trên máy tính
+     (ví dụ: D:\ON-LUYEN-TOAN-THCS).
+   - Yêu cầu duy nhất: Cài sẵn Node.js phiên bản LTS (từ 18 trở lên, khuyên dùng
+     Node.js 22 LTS) tại https://nodejs.org/.
+   - KHÔNG cần chạy npm install, KHÔNG cần kết nối Internet để luyện tập và kiểm tra.
+
+2. KHỞI ĐỘNG TRÊN WINDOWS 10 / 11
+   - Nhấp đúp chuột vào file CHAY-WINDOWS.bat.
+   - Mặc định sau 4 giây, hệ thống tự động chạy ở chế độ cục bộ (http://127.0.0.1:3000/)
+     và tự mở trình duyệt web.
+   - Nếu cổng 3000 đang có phần mềm khác sử dụng, máy chủ sẽ tự động dò sang cổng
+     3001, 3002... và hiển thị địa chỉ mới trên cửa sổ dòng lệnh.
+   - Nếu muốn cho học sinh trong cùng phòng máy / mạng Wi-Fi nội bộ làm bài trên máy
+     giáo viên: nhấn phím [2] khi cửa sổ hỏi chế độ, sau đó chia sẻ địa chỉ IP LAN
+     hiển thị trên màn hình cho học sinh.
+   - Luôn giữ cửa sổ màu đen đang chạy trong suốt quá trình sử dụng website.
+
+3. DỪNG WEBSITE
+   - Quay lại cửa sổ màu đen và nhấn Ctrl + C, hoặc đóng trực tiếp cửa sổ đó.
+
+4. TÀI KHOẢN KHỞI TẠO ĐỂ TRẢI NGHIỆM VÀ QUẢN LÝ
+   (Khuyến nghị đổi mật khẩu ngay sau lần đăng nhập đầu tiên)
+   - Quản trị viên (Admin):
+       Tên đăng nhập: admin        | Mật khẩu: Admin@2026
+   - Giáo viên Toán:
+       Tên đăng nhập: gv_toan      | Mật khẩu: GiaoVien@2026
+   - Học sinh mẫu (Lớp 6, 8, 9):
+       Lớp 6: hs_an                | Mật khẩu: HocSinh@2026
+       Lớp 8: hs_binh              | Mật khẩu: HocSinh@2026
+       Lớp 9: hs_chi               | Mật khẩu: HocSinh@2026
+
+5. CÁC TÍNH NĂNG CHÍNH
+   - Chương trình GDPT 2018 đủ 4 khối lớp (6, 7, 8, 9) và 3 bộ sách:
+     Kết nối tri thức với cuộc sống, Chân trời sáng tạo, Cánh diều.
+   - 10 dạng câu hỏi: Trắc nghiệm 4 lựa chọn, Đúng/Sai 4 ý, Điền đáp án, Ghép cặp,
+     Sắp xếp bước giải, Tự luận ngắn, Bài toán thực tế, Hình vẽ/Đồ thị, Tìm lỗi sai,
+     Vận dụng cao.
+   - Lời giải chi tiết 5 bước với công thức toán học (KaTeX offline).
+   - 3 mức độ ôn luyện + Chế độ thích ứng độ khó (có thể bật/tắt).
+   - Các chế độ thi/kiểm tra: Theo bài, Theo chương, Giữa HK, Cuối HK, 15 phút,
+     45 phút, Thi thử tổng hợp, Luyện lại câu từng làm sai.
+   - 10 Trò chơi Toán học tương tác có thể trình chiếu trực tiếp trên bảng lớp học.
+   - Bảng điều khiển Giáo viên: Tạo lớp, giao bài, chấm tự luận, biểu đồ thống kê,
+     xuất CSV (mở trực tiếp bằng Excel) và in phiếu kết quả PDF.
+
+6. QUẢN LÝ DỮ LIỆU, SAO LƯU VÀ BẢO VỆ DỮ LIỆU HỌC SINH
+   - Dữ liệu được lưu bền vững trong thư mục data/:
+     + Node.js >= 22.5: sử dụng cơ sở dữ liệu SQLite (data/toan_thcs.db).
+     + Node.js 18–20: sử dụng tệp JSON an toàn nguyên tử (data/toan_thcs_store.json).
+   - Mật khẩu được băm an toàn bằng thuật toán scrypt + muối ngẫu nhiên, không lưu
+     dạng văn bản thuần.
+   - Bảo vệ thông tin học sinh chưa thành niên: Hệ thống chỉ lưu Mã học sinh, Họ tên
+     và Lớp học; không thu thập số điện thoại, địa chỉ hay dữ liệu nhạy cảm.
+   - Sao lưu & Khôi phục: Đăng nhập bằng tài khoản Quản trị viên (admin) -> mục
+     "Quản trị & Sao lưu" để tải toàn bộ file sao lưu .json hoặc khôi phục lại.
+
+7. XỬ LÝ SỰ CỐ THƯỜNG GẶP
+   - Báo "CHUA CAI DAT NODE.JS": Tải bản LTS tại https://nodejs.org/, cài đặt xong
+     khởi động lại máy hoặc mở lại CHAY-WINDOWS.bat.
+   - Trình duyệt không tự mở: Mở Chrome/Edge và gõ http://127.0.0.1:3000/.
+   - Chạy kiểm thử tự động: Mở PowerShell/CMD tại thư mục này và chạy:
+     node --test tests/run-tests.mjs

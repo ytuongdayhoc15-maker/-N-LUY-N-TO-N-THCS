@@ -1,0 +1,1516 @@
+{
+  "textbooks": [
+    {
+      "id": "kntt",
+      "name": "Kết nối tri thức với cuộc sống",
+      "shortName": "Kết nối tri thức",
+      "publisher": "NXB Giáo dục Việt Nam"
+    },
+    {
+      "id": "ctst",
+      "name": "Chân trời sáng tạo",
+      "shortName": "Chân trời sáng tạo",
+      "publisher": "NXB Giáo dục Việt Nam"
+    },
+    {
+      "id": "cd",
+      "name": "Cánh diều",
+      "shortName": "Cánh diều",
+      "publisher": "NXB Đại học Sư phạm"
+    }
+  ],
+  "grades": {
+    "6": {
+      "label": "Toán Lớp 6",
+      "overview": "Số tự nhiên, tính chia hết, số nguyên, phân số, số thập phân, hình học trực quan, hình học phẳng cơ bản, thống kê và xác suất thực nghiệm.",
+      "books": {
+        "kntt": [
+          {
+            "id": "6-kntt-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Tập hợp các số tự nhiên",
+            "topicKey": "so-tu-nhien",
+            "lessons": [
+              { "id": "6-kntt-b1", "code": "Bài 1", "title": "Tập hợp" },
+              { "id": "6-kntt-b2", "code": "Bài 2", "title": "Cách ghi số tự nhiên" },
+              { "id": "6-kntt-b3", "code": "Bài 3", "title": "Thứ tự trong tập hợp các số tự nhiên" },
+              { "id": "6-kntt-b4", "code": "Bài 4", "title": "Phép cộng và phép trừ số tự nhiên" },
+              { "id": "6-kntt-b5", "code": "Bài 5", "title": "Phép nhân và phép chia số tự nhiên" },
+              { "id": "6-kntt-b6", "code": "Bài 6", "title": "Lũy thừa với số mũ tự nhiên" },
+              { "id": "6-kntt-b7", "code": "Bài 7", "title": "Thứ tự thực hiện các phép tính" }
+            ]
+          },
+          {
+            "id": "6-kntt-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Tính chia hết trong tập hợp các số tự nhiên",
+            "topicKey": "chia-het-uoc-boi",
+            "lessons": [
+              { "id": "6-kntt-b8", "code": "Bài 8", "title": "Quan hệ chia hết và tính chất" },
+              { "id": "6-kntt-b9", "code": "Bài 9", "title": "Dấu hiệu chia hết" },
+              { "id": "6-kntt-b10", "code": "Bài 10", "title": "Số nguyên tố" },
+              { "id": "6-kntt-b11", "code": "Bài 11", "title": "Ước chung. Ước chung lớn nhất" },
+              { "id": "6-kntt-b12", "code": "Bài 12", "title": "Bội chung. Bội chung nhỏ nhất" }
+            ]
+          },
+          {
+            "id": "6-kntt-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Số nguyên",
+            "topicKey": "so-nguyen",
+            "lessons": [
+              { "id": "6-kntt-b13", "code": "Bài 13", "title": "Tập hợp các số nguyên" },
+              { "id": "6-kntt-b14", "code": "Bài 14", "title": "Phép cộng và phép trừ số nguyên" },
+              { "id": "6-kntt-b15", "code": "Bài 15", "title": "Quy tắc dấu ngoặc" },
+              { "id": "6-kntt-b16", "code": "Bài 16", "title": "Phép nhân số nguyên" },
+              { "id": "6-kntt-b17", "code": "Bài 17", "title": "Phép chia hết. Ước và bội của một số nguyên" }
+            ]
+          },
+          {
+            "id": "6-kntt-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Một số hình phẳng trong thực tiễn",
+            "topicKey": "hinh-hoc-truc-quan-6",
+            "lessons": [
+              { "id": "6-kntt-b18", "code": "Bài 18", "title": "Hình tam giác đều. Hình vuông. Hình lục giác đều" },
+              { "id": "6-kntt-b19", "code": "Bài 19", "title": "Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân" },
+              { "id": "6-kntt-b20", "code": "Bài 20", "title": "Chu vi và diện tích của một số tứ giác đã học" }
+            ]
+          },
+          {
+            "id": "6-kntt-c5",
+            "semester": 1,
+            "code": "Chương V",
+            "title": "Tính đối xứng của hình phẳng trong tự nhiên",
+            "topicKey": "hinh-hoc-truc-quan-6",
+            "lessons": [
+              { "id": "6-kntt-b21", "code": "Bài 21", "title": "Hình có trục đối xứng" },
+              { "id": "6-kntt-b22", "code": "Bài 22", "title": "Hình có tâm đối xứng" }
+            ]
+          },
+          {
+            "id": "6-kntt-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Phân số",
+            "topicKey": "phan-so",
+            "lessons": [
+              { "id": "6-kntt-b23", "code": "Bài 23", "title": "Mở rộng phân số. Phân số bằng nhau" },
+              { "id": "6-kntt-b24", "code": "Bài 24", "title": "So sánh phân số. Hỗn số dương" },
+              { "id": "6-kntt-b25", "code": "Bài 25", "title": "Phép cộng và phép trừ phân số" },
+              { "id": "6-kntt-b26", "code": "Bài 26", "title": "Phép nhân và phép chia phân số" },
+              { "id": "6-kntt-b27", "code": "Bài 27", "title": "Hai bài toán về phân số" }
+            ]
+          },
+          {
+            "id": "6-kntt-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Số thập phân",
+            "topicKey": "so-thap-phan",
+            "lessons": [
+              { "id": "6-kntt-b28", "code": "Bài 28", "title": "Số thập phân" },
+              { "id": "6-kntt-b29", "code": "Bài 29", "title": "Tính toán với số thập phân" },
+              { "id": "6-kntt-b30", "code": "Bài 30", "title": "Làm tròn và ước lượng" },
+              { "id": "6-kntt-b31", "code": "Bài 31", "title": "Một số bài toán về tỉ số và tỉ số phần trăm" }
+            ]
+          },
+          {
+            "id": "6-kntt-c8",
+            "semester": 2,
+            "code": "Chương VIII",
+            "title": "Những hình hình học cơ bản",
+            "topicKey": "hinh-hoc-phang-6",
+            "lessons": [
+              { "id": "6-kntt-b32", "code": "Bài 32", "title": "Điểm và đường thẳng" },
+              { "id": "6-kntt-b33", "code": "Bài 33", "title": "Điểm nằm giữa hai điểm. Tia" },
+              { "id": "6-kntt-b34", "code": "Bài 34", "title": "Đoạn thẳng. Độ dài đoạn thẳng" },
+              { "id": "6-kntt-b35", "code": "Bài 35", "title": "Trung điểm của đoạn thẳng" },
+              { "id": "6-kntt-b36", "code": "Bài 36", "title": "Góc" },
+              { "id": "6-kntt-b37", "code": "Bài 37", "title": "Số đo góc" }
+            ]
+          },
+          {
+            "id": "6-kntt-c9",
+            "semester": 2,
+            "code": "Chương IX",
+            "title": "Dữ liệu và xác suất thực nghiệm",
+            "topicKey": "thong-ke-xac-suat-6",
+            "lessons": [
+              { "id": "6-kntt-b38", "code": "Bài 38", "title": "Dữ liệu và thu thập dữ liệu" },
+              { "id": "6-kntt-b39", "code": "Bài 39", "title": "Bảng thống kê và biểu đồ tranh" },
+              { "id": "6-kntt-b40", "code": "Bài 40", "title": "Biểu đồ cột" },
+              { "id": "6-kntt-b41", "code": "Bài 41", "title": "Biểu đồ cột kép" },
+              { "id": "6-kntt-b42", "code": "Bài 42", "title": "Kết quả có thể và sự kiện trong trò chơi, thí nghiệm" },
+              { "id": "6-kntt-b43", "code": "Bài 43", "title": "Xác suất thực nghiệm" }
+            ]
+          }
+        ],
+        "ctst": [
+          {
+            "id": "6-ctst-c1",
+            "semester": 1,
+            "code": "Chương 1",
+            "title": "Số tự nhiên",
+            "topicKey": "so-tu-nhien",
+            "lessons": [
+              { "id": "6-ctst-b1", "code": "Bài 1", "title": "Tập hợp. Phần tử của tập hợp" },
+              { "id": "6-ctst-b2", "code": "Bài 2", "title": "Tập hợp số tự nhiên. Ghi số tự nhiên" },
+              { "id": "6-ctst-b3", "code": "Bài 3", "title": "Các phép tính trong tập hợp số tự nhiên" },
+              { "id": "6-ctst-b4", "code": "Bài 4", "title": "Lũy thừa với số mũ tự nhiên" },
+              { "id": "6-ctst-b5", "code": "Bài 5", "title": "Thứ tự thực hiện các phép tính" },
+              { "id": "6-ctst-b6", "code": "Bài 6", "title": "Chia hết và chia có dư. Tính chất chia hết của một tổng" },
+              { "id": "6-ctst-b7", "code": "Bài 7", "title": "Dấu hiệu chia hết cho 2, cho 5" },
+              { "id": "6-ctst-b8", "code": "Bài 8", "title": "Dấu hiệu chia hết cho 3, cho 9" },
+              { "id": "6-ctst-b9", "code": "Bài 9", "title": "Ước và bội" },
+              { "id": "6-ctst-b10", "code": "Bài 10", "title": "Số nguyên tố. Hợp số. Phân tích một số ra thừa số nguyên tố" },
+              { "id": "6-ctst-b12", "code": "Bài 12", "title": "Ước chung. Ước chung lớn nhất" },
+              { "id": "6-ctst-b13", "code": "Bài 13", "title": "Bội chung. Bội chung nhỏ nhất" }
+            ]
+          },
+          {
+            "id": "6-ctst-c2",
+            "semester": 1,
+            "code": "Chương 2",
+            "title": "Số nguyên",
+            "topicKey": "so-nguyen",
+            "lessons": [
+              { "id": "6-ctst-c2-b1", "code": "Bài 1", "title": "Số nguyên âm và tập hợp các số nguyên" },
+              { "id": "6-ctst-c2-b2", "code": "Bài 2", "title": "Thứ tự trong tập hợp số nguyên" },
+              { "id": "6-ctst-c2-b3", "code": "Bài 3", "title": "Phép cộng và phép trừ hai số nguyên" },
+              { "id": "6-ctst-c2-b4", "code": "Bài 4", "title": "Phép nhân và phép chia hết hai số nguyên" }
+            ]
+          },
+          {
+            "id": "6-ctst-c3",
+            "semester": 1,
+            "code": "Chương 3",
+            "title": "Hình học trực quan. Các hình phẳng trong thực tiễn",
+            "topicKey": "hinh-hoc-truc-quan-6",
+            "lessons": [
+              { "id": "6-ctst-c3-b1", "code": "Bài 1", "title": "Hình vuông - Tam giác đều - Lục giác đều" },
+              { "id": "6-ctst-c3-b2", "code": "Bài 2", "title": "Hình chữ nhật - Hình thoi - Hình bình hành - Hình thang cân" },
+              { "id": "6-ctst-c3-b3", "code": "Bài 3", "title": "Chu vi và diện tích của một số hình trong thực tiễn" }
+            ]
+          },
+          {
+            "id": "6-ctst-c4",
+            "semester": 1,
+            "code": "Chương 4",
+            "title": "Một số yếu tố thống kê",
+            "topicKey": "thong-ke-xac-suat-6",
+            "lessons": [
+              { "id": "6-ctst-c4-b1", "code": "Bài 1", "title": "Thu thập và phân loại dữ liệu" },
+              { "id": "6-ctst-c4-b2", "code": "Bài 2", "title": "Biểu diễn dữ liệu trên bảng" },
+              { "id": "6-ctst-c4-b3", "code": "Bài 3", "title": "Biểu đồ tranh" },
+              { "id": "6-ctst-c4-b4", "code": "Bài 4", "title": "Biểu đồ cột - Biểu đồ cột kép" }
+            ]
+          },
+          {
+            "id": "6-ctst-c5",
+            "semester": 2,
+            "code": "Chương 5",
+            "title": "Phân số",
+            "topicKey": "phan-so",
+            "lessons": [
+              { "id": "6-ctst-c5-b1", "code": "Bài 1", "title": "Phân số với tử số và mẫu số là số nguyên" },
+              { "id": "6-ctst-c5-b2", "code": "Bài 2", "title": "Tính chất cơ bản của phân số" },
+              { "id": "6-ctst-c5-b3", "code": "Bài 3", "title": "So sánh phân số" },
+              { "id": "6-ctst-c5-b4", "code": "Bài 4", "title": "Phép cộng và phép trừ phân số" },
+              { "id": "6-ctst-c5-b5", "code": "Bài 5", "title": "Phép nhân và phép chia phân số" },
+              { "id": "6-ctst-c5-b6", "code": "Bài 6", "title": "Giá trị phân số của một số" },
+              { "id": "6-ctst-c5-b7", "code": "Bài 7", "title": "Hỗn số" }
+            ]
+          },
+          {
+            "id": "6-ctst-c6",
+            "semester": 2,
+            "code": "Chương 6",
+            "title": "Số thập phân",
+            "topicKey": "so-thap-phan",
+            "lessons": [
+              { "id": "6-ctst-c6-b1", "code": "Bài 1", "title": "Số thập phân" },
+              { "id": "6-ctst-c6-b2", "code": "Bài 2", "title": "Các phép tính với số thập phân" },
+              { "id": "6-ctst-c6-b3", "code": "Bài 3", "title": "Làm tròn số thập phân và ước lượng kết quả" },
+              { "id": "6-ctst-c6-b4", "code": "Bài 4", "title": "Tỉ số và tỉ số phần trăm" }
+            ]
+          },
+          {
+            "id": "6-ctst-c7",
+            "semester": 2,
+            "code": "Chương 7",
+            "title": "Hình học trực quan. Tính đối xứng của hình phẳng trong thế giới tự nhiên",
+            "topicKey": "hinh-hoc-truc-quan-6",
+            "lessons": [
+              { "id": "6-ctst-c7-b1", "code": "Bài 1", "title": "Hình có trục đối xứng" },
+              { "id": "6-ctst-c7-b2", "code": "Bài 2", "title": "Hình có tâm đối xứng" }
+            ]
+          },
+          {
+            "id": "6-ctst-c8",
+            "semester": 2,
+            "code": "Chương 8",
+            "title": "Hình học phẳng. Các hình hình học cơ bản",
+            "topicKey": "hinh-hoc-phang-6",
+            "lessons": [
+              { "id": "6-ctst-c8-b1", "code": "Bài 1", "title": "Điểm. Đường thẳng" },
+              { "id": "6-ctst-c8-b2", "code": "Bài 2", "title": "Ba điểm thẳng hàng. Ba điểm không thẳng hàng" },
+              { "id": "6-ctst-c8-b3", "code": "Bài 3", "title": "Hai đường thẳng cắt nhau, song song. Tia" },
+              { "id": "6-ctst-c8-b4", "code": "Bài 4", "title": "Đoạn thẳng. Độ dài đoạn thẳng" },
+              { "id": "6-ctst-c8-b5", "code": "Bài 5", "title": "Trung điểm của đoạn thẳng" },
+              { "id": "6-ctst-c8-b6", "code": "Bài 6", "title": "Góc" },
+              { "id": "6-ctst-c8-b7", "code": "Bài 7", "title": "Số đo góc. Các góc đặc biệt" }
+            ]
+          },
+          {
+            "id": "6-ctst-c9",
+            "semester": 2,
+            "code": "Chương 9",
+            "title": "Một số yếu tố xác suất",
+            "topicKey": "thong-ke-xac-suat-6",
+            "lessons": [
+              { "id": "6-ctst-c9-b1", "code": "Bài 1", "title": "Phép thử nghiệm - Sự kiện" },
+              { "id": "6-ctst-c9-b2", "code": "Bài 2", "title": "Xác suất thực nghiệm" }
+            ]
+          }
+        ],
+        "cd": [
+          {
+            "id": "6-cd-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Số tự nhiên",
+            "topicKey": "so-tu-nhien",
+            "lessons": [
+              { "id": "6-cd-c1-b1", "code": "Bài 1", "title": "Tập hợp" },
+              { "id": "6-cd-c1-b2", "code": "Bài 2", "title": "Tập hợp các số tự nhiên" },
+              { "id": "6-cd-c1-b3", "code": "Bài 3", "title": "Phép cộng, phép trừ các số tự nhiên" },
+              { "id": "6-cd-c1-b4", "code": "Bài 4", "title": "Phép nhân, phép chia các số tự nhiên" },
+              { "id": "6-cd-c1-b5", "code": "Bài 5", "title": "Phép tính lũy thừa với số mũ tự nhiên" },
+              { "id": "6-cd-c1-b6", "code": "Bài 6", "title": "Thứ tự thực hiện các phép tính" },
+              { "id": "6-cd-c1-b7", "code": "Bài 7", "title": "Quan hệ chia hết. Tính chất chia hết" },
+              { "id": "6-cd-c1-b8", "code": "Bài 8", "title": "Dấu hiệu chia hết cho 2, cho 5" },
+              { "id": "6-cd-c1-b9", "code": "Bài 9", "title": "Dấu hiệu chia hết cho 3, cho 9" },
+              { "id": "6-cd-c1-b10", "code": "Bài 10", "title": "Số nguyên tố. Hợp số" },
+              { "id": "6-cd-c1-b12", "code": "Bài 12", "title": "Ước chung và ước chung lớn nhất" },
+              { "id": "6-cd-c1-b13", "code": "Bài 13", "title": "Bội chung và bội chung nhỏ nhất" }
+            ]
+          },
+          {
+            "id": "6-cd-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Số nguyên",
+            "topicKey": "so-nguyen",
+            "lessons": [
+              { "id": "6-cd-c2-b1", "code": "Bài 1", "title": "Số nguyên âm" },
+              { "id": "6-cd-c2-b2", "code": "Bài 2", "title": "Tập hợp các số nguyên" },
+              { "id": "6-cd-c2-b3", "code": "Bài 3", "title": "Phép cộng các số nguyên" },
+              { "id": "6-cd-c2-b4", "code": "Bài 4", "title": "Phép trừ số nguyên. Quy tắc dấu ngoặc" },
+              { "id": "6-cd-c2-b5", "code": "Bài 5", "title": "Phép nhân các số nguyên" },
+              { "id": "6-cd-c2-b6", "code": "Bài 6", "title": "Phép chia hết hai số nguyên. Quan hệ chia hết trong tập hợp số nguyên" }
+            ]
+          },
+          {
+            "id": "6-cd-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Hình học trực quan",
+            "topicKey": "hinh-hoc-truc-quan-6",
+            "lessons": [
+              { "id": "6-cd-c3-b1", "code": "Bài 1", "title": "Tam giác đều. Hình vuông. Lục giác đều" },
+              { "id": "6-cd-c3-b2", "code": "Bài 2", "title": "Hình chữ nhật. Hình thoi" },
+              { "id": "6-cd-c3-b3", "code": "Bài 3", "title": "Hình bình hành" },
+              { "id": "6-cd-c3-b4", "code": "Bài 4", "title": "Hình thang cân" },
+              { "id": "6-cd-c3-b5", "code": "Bài 5", "title": "Hình có trục đối xứng" },
+              { "id": "6-cd-c3-b6", "code": "Bài 6", "title": "Hình có tâm đối xứng" }
+            ]
+          },
+          {
+            "id": "6-cd-c4",
+            "semester": 2,
+            "code": "Chương IV",
+            "title": "Một số yếu tố thống kê và xác suất",
+            "topicKey": "thong-ke-xac-suat-6",
+            "lessons": [
+              { "id": "6-cd-c4-b1", "code": "Bài 1", "title": "Thu thập, tổ chức, biểu diễn, phân tích và xử lí dữ liệu" },
+              { "id": "6-cd-c4-b2", "code": "Bài 2", "title": "Biểu đồ cột kép" },
+              { "id": "6-cd-c4-b3", "code": "Bài 3", "title": "Mô hình xác suất trong một số trò chơi và thí nghiệm đơn giản" },
+              { "id": "6-cd-c4-b4", "code": "Bài 4", "title": "Xác suất thực nghiệm trong một số trò chơi và thí nghiệm đơn giản" }
+            ]
+          },
+          {
+            "id": "6-cd-c5",
+            "semester": 2,
+            "code": "Chương V",
+            "title": "Phân số và số thập phân",
+            "topicKey": "phan-so",
+            "lessons": [
+              { "id": "6-cd-c5-b1", "code": "Bài 1", "title": "Phân số với tử và mẫu là số nguyên" },
+              { "id": "6-cd-c5-b2", "code": "Bài 2", "title": "So sánh các phân số. Hỗn số dương" },
+              { "id": "6-cd-c5-b3", "code": "Bài 3", "title": "Phép cộng. Phép trừ phân số" },
+              { "id": "6-cd-c5-b4", "code": "Bài 4", "title": "Phép nhân, phép chia phân số" },
+              { "id": "6-cd-c5-b5", "code": "Bài 5", "title": "Số thập phân" },
+              { "id": "6-cd-c5-b6", "code": "Bài 6", "title": "Phép cộng, phép trừ số thập phân" },
+              { "id": "6-cd-c5-b7", "code": "Bài 7", "title": "Phép nhân, phép chia số thập phân" },
+              { "id": "6-cd-c5-b8", "code": "Bài 8", "title": "Ước lượng và làm tròn số" },
+              { "id": "6-cd-c5-b9", "code": "Bài 9", "title": "Tỉ số. Tỉ số phần trăm" },
+              { "id": "6-cd-c5-b10", "code": "Bài 10", "title": "Hai bài toán về phân số" }
+            ]
+          },
+          {
+            "id": "6-cd-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Hình học phẳng",
+            "topicKey": "hinh-hoc-phang-6",
+            "lessons": [
+              { "id": "6-cd-c6-b1", "code": "Bài 1", "title": "Điểm. Đường thẳng" },
+              { "id": "6-cd-c6-b2", "code": "Bài 2", "title": "Hai đường thẳng cắt nhau. Hai đường thẳng song song" },
+              { "id": "6-cd-c6-b3", "code": "Bài 3", "title": "Đoạn thẳng" },
+              { "id": "6-cd-c6-b4", "code": "Bài 4", "title": "Tia" },
+              { "id": "6-cd-c6-b5", "code": "Bài 5", "title": "Góc" }
+            ]
+          }
+        ]
+      }
+    },
+    "7": {
+      "label": "Toán Lớp 7",
+      "overview": "Số hữu tỉ, số thực, góc và đường thẳng song song, tam giác bằng nhau, tỉ lệ thức, đại lượng tỉ lệ, biểu thức đại số, đa thức một biến, xác suất biến cố.",
+      "books": {
+        "kntt": [
+          {
+            "id": "7-kntt-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Số hữu tỉ",
+            "topicKey": "so-huu-ti",
+            "lessons": [
+              { "id": "7-kntt-b1", "code": "Bài 1", "title": "Tập hợp các số hữu tỉ" },
+              { "id": "7-kntt-b2", "code": "Bài 2", "title": "Cộng, trừ, nhân, chia số hữu tỉ" },
+              { "id": "7-kntt-b3", "code": "Bài 3", "title": "Lũy thừa với số mũ tự nhiên của một số hữu tỉ" },
+              { "id": "7-kntt-b4", "code": "Bài 4", "title": "Thứ tự thực hiện các phép tính. Quy tắc chuyển vế" }
+            ]
+          },
+          {
+            "id": "7-kntt-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Số thực",
+            "topicKey": "so-thuc",
+            "lessons": [
+              { "id": "7-kntt-b5", "code": "Bài 5", "title": "Làm quen với số thập phân vô hạn tuần hoàn" },
+              { "id": "7-kntt-b6", "code": "Bài 6", "title": "Số vô tỉ. Căn bậc hai số học" },
+              { "id": "7-kntt-b7", "code": "Bài 7", "title": "Tập hợp các số thực" }
+            ]
+          },
+          {
+            "id": "7-kntt-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Góc và đường thẳng song song",
+            "topicKey": "goc-duong-thang-song-song",
+            "lessons": [
+              { "id": "7-kntt-b8", "code": "Bài 8", "title": "Góc ở vị trí đặc biệt. Tia phân giác của một góc" },
+              { "id": "7-kntt-b9", "code": "Bài 9", "title": "Hai đường thẳng song song và dấu hiệu nhận biết" },
+              { "id": "7-kntt-b10", "code": "Bài 10", "title": "Tiên đề Euclid. Tính chất của hai đường thẳng song song" },
+              { "id": "7-kntt-b11", "code": "Bài 11", "title": "Định lí và chứng minh định lí" }
+            ]
+          },
+          {
+            "id": "7-kntt-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Tam giác bằng nhau",
+            "topicKey": "tam-giac-7",
+            "lessons": [
+              { "id": "7-kntt-b12", "code": "Bài 12", "title": "Tổng các góc trong một tam giác" },
+              { "id": "7-kntt-b13", "code": "Bài 13", "title": "Hai tam giác bằng nhau. Trường hợp bằng nhau thứ nhất của tam giác" },
+              { "id": "7-kntt-b14", "code": "Bài 14", "title": "Trường hợp bằng nhau thứ hai và thứ ba của tam giác" },
+              { "id": "7-kntt-b15", "code": "Bài 15", "title": "Các trường hợp bằng nhau của tam giác vuông" },
+              { "id": "7-kntt-b16", "code": "Bài 16", "title": "Tam giác cân. Đường trung trực của đoạn thẳng" }
+            ]
+          },
+          {
+            "id": "7-kntt-c5",
+            "semester": 1,
+            "code": "Chương V",
+            "title": "Thu thập và biểu diễn dữ liệu",
+            "topicKey": "thong-ke-xac-suat-7",
+            "lessons": [
+              { "id": "7-kntt-b17", "code": "Bài 17", "title": "Thu thập và phân loại dữ liệu" },
+              { "id": "7-kntt-b18", "code": "Bài 18", "title": "Biểu đồ hình quạt tròn" },
+              { "id": "7-kntt-b19", "code": "Bài 19", "title": "Biểu đồ đoạn thẳng" }
+            ]
+          },
+          {
+            "id": "7-kntt-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Tỉ lệ thức và đại lượng tỉ lệ",
+            "topicKey": "ti-le-thuc",
+            "lessons": [
+              { "id": "7-kntt-b20", "code": "Bài 20", "title": "Tỉ lệ thức" },
+              { "id": "7-kntt-b21", "code": "Bài 21", "title": "Tính chất của dãy tỉ số bằng nhau" },
+              { "id": "7-kntt-b22", "code": "Bài 22", "title": "Đại lượng tỉ lệ thuận" },
+              { "id": "7-kntt-b23", "code": "Bài 23", "title": "Đại lượng tỉ lệ nghịch" }
+            ]
+          },
+          {
+            "id": "7-kntt-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Biểu thức đại số và đa thức một biến",
+            "topicKey": "bieu-thuc-dai-so-7",
+            "lessons": [
+              { "id": "7-kntt-b24", "code": "Bài 24", "title": "Biểu thức đại số" },
+              { "id": "7-kntt-b25", "code": "Bài 25", "title": "Đa thức một biến" },
+              { "id": "7-kntt-b26", "code": "Bài 26", "title": "Phép cộng và phép trừ đa thức một biến" },
+              { "id": "7-kntt-b27", "code": "Bài 27", "title": "Phép nhân đa thức một biến" },
+              { "id": "7-kntt-b28", "code": "Bài 28", "title": "Phép chia đa thức một biến" }
+            ]
+          },
+          {
+            "id": "7-kntt-c8",
+            "semester": 2,
+            "code": "Chương VIII",
+            "title": "Làm quen với biến cố và xác suất của biến cố",
+            "topicKey": "thong-ke-xac-suat-7",
+            "lessons": [
+              { "id": "7-kntt-b29", "code": "Bài 29", "title": "Làm quen với biến cố" },
+              { "id": "7-kntt-b30", "code": "Bài 30", "title": "Làm quen với xác suất của biến cố" }
+            ]
+          },
+          {
+            "id": "7-kntt-c9",
+            "semester": 2,
+            "code": "Chương IX",
+            "title": "Quan hệ giữa các yếu tố trong một tam giác",
+            "topicKey": "tam-giac-7",
+            "lessons": [
+              { "id": "7-kntt-b31", "code": "Bài 31", "title": "Quan hệ giữa góc và cạnh đối diện trong một tam giác" },
+              { "id": "7-kntt-b32", "code": "Bài 32", "title": "Quan hệ giữa đường vuông góc và đường xiên" },
+              { "id": "7-kntt-b33", "code": "Bài 33", "title": "Quan hệ giữa ba cạnh của một tam giác" },
+              { "id": "7-kntt-b34", "code": "Bài 34", "title": "Sự đồng quy của ba đường trung tuyến, ba đường phân giác trong một tam giác" },
+              { "id": "7-kntt-b35", "code": "Bài 35", "title": "Sự đồng quy của ba đường trung trực, ba đường cao trong một tam giác" }
+            ]
+          },
+          {
+            "id": "7-kntt-c10",
+            "semester": 2,
+            "code": "Chương X",
+            "title": "Một số hình khối trong thực tiễn",
+            "topicKey": "hinh-khoi-7",
+            "lessons": [
+              { "id": "7-kntt-b36", "code": "Bài 36", "title": "Hình hộp chữ nhật và hình lập phương" },
+              { "id": "7-kntt-b37", "code": "Bài 37", "title": "Hình lăng trụ đứng tam giác và hình lăng trụ đứng tứ giác" }
+            ]
+          }
+        ],
+        "ctst": [
+          {
+            "id": "7-ctst-c1",
+            "semester": 1,
+            "code": "Chương 1",
+            "title": "Số hữu tỉ",
+            "topicKey": "so-huu-ti",
+            "lessons": [
+              { "id": "7-ctst-c1-b1", "code": "Bài 1", "title": "Tập hợp các số hữu tỉ" },
+              { "id": "7-ctst-c1-b2", "code": "Bài 2", "title": "Các phép tính với số hữu tỉ" },
+              { "id": "7-ctst-c1-b3", "code": "Bài 3", "title": "Lũy thừa của một số hữu tỉ" },
+              { "id": "7-ctst-c1-b4", "code": "Bài 4", "title": "Quy tắc dấu ngoặc và quy tắc chuyển vế" }
+            ]
+          },
+          {
+            "id": "7-ctst-c2",
+            "semester": 1,
+            "code": "Chương 2",
+            "title": "Số thực",
+            "topicKey": "so-thuc",
+            "lessons": [
+              { "id": "7-ctst-c2-b1", "code": "Bài 1", "title": "Số vô tỉ. Căn bậc hai số học" },
+              { "id": "7-ctst-c2-b2", "code": "Bài 2", "title": "Số thực. Giá trị tuyệt đối của một số thực" },
+              { "id": "7-ctst-c2-b3", "code": "Bài 3", "title": "Làm tròn số và ước lượng kết quả" }
+            ]
+          },
+          {
+            "id": "7-ctst-c3",
+            "semester": 1,
+            "code": "Chương 3",
+            "title": "Các hình khối trong thực tiễn",
+            "topicKey": "hinh-khoi-7",
+            "lessons": [
+              { "id": "7-ctst-c3-b1", "code": "Bài 1", "title": "Hình hộp chữ nhật - Hình lập phương" },
+              { "id": "7-ctst-c3-b2", "code": "Bài 2", "title": "Diện tích xung quanh và thể tích của hình hộp chữ nhật, hình lập phương" },
+              { "id": "7-ctst-c3-b3", "code": "Bài 3", "title": "Hình lăng trụ đứng tam giác - Hình lăng trụ đứng tứ giác" },
+              { "id": "7-ctst-c3-b4", "code": "Bài 4", "title": "Diện tích xung quanh và thể tích của hình lăng trụ đứng tam giác, lăng trụ đứng tứ giác" }
+            ]
+          },
+          {
+            "id": "7-ctst-c4",
+            "semester": 1,
+            "code": "Chương 4",
+            "title": "Góc và đường thẳng song song",
+            "topicKey": "goc-duong-thang-song-song",
+            "lessons": [
+              { "id": "7-ctst-c4-b1", "code": "Bài 1", "title": "Các góc ở vị trí đặc biệt" },
+              { "id": "7-ctst-c4-b2", "code": "Bài 2", "title": "Tia phân giác" },
+              { "id": "7-ctst-c4-b3", "code": "Bài 3", "title": "Hai đường thẳng song song" },
+              { "id": "7-ctst-c4-b4", "code": "Bài 4", "title": "Định lí và chứng minh một định lí" }
+            ]
+          },
+          {
+            "id": "7-ctst-c5",
+            "semester": 1,
+            "code": "Chương 5",
+            "title": "Một số yếu tố thống kê",
+            "topicKey": "thong-ke-xac-suat-7",
+            "lessons": [
+              { "id": "7-ctst-c5-b1", "code": "Bài 1", "title": "Thu thập và phân loại dữ liệu" },
+              { "id": "7-ctst-c5-b2", "code": "Bài 2", "title": "Biểu đồ hình quạt tròn" },
+              { "id": "7-ctst-c5-b3", "code": "Bài 3", "title": "Biểu đồ đoạn thẳng" }
+            ]
+          },
+          {
+            "id": "7-ctst-c6",
+            "semester": 2,
+            "code": "Chương 6",
+            "title": "Các đại lượng tỉ lệ",
+            "topicKey": "ti-le-thuc",
+            "lessons": [
+              { "id": "7-ctst-c6-b1", "code": "Bài 1", "title": "Tỉ lệ thức - Dãy tỉ số bằng nhau" },
+              { "id": "7-ctst-c6-b2", "code": "Bài 2", "title": "Đại lượng tỉ lệ thuận" },
+              { "id": "7-ctst-c6-b3", "code": "Bài 3", "title": "Đại lượng tỉ lệ nghịch" }
+            ]
+          },
+          {
+            "id": "7-ctst-c7",
+            "semester": 2,
+            "code": "Chương 7",
+            "title": "Biểu thức đại số",
+            "topicKey": "bieu-thuc-dai-so-7",
+            "lessons": [
+              { "id": "7-ctst-c7-b1", "code": "Bài 1", "title": "Biểu thức số, biểu thức đại số" },
+              { "id": "7-ctst-c7-b2", "code": "Bài 2", "title": "Đa thức một biến" },
+              { "id": "7-ctst-c7-b3", "code": "Bài 3", "title": "Phép cộng và phép trừ đa thức một biến" },
+              { "id": "7-ctst-c7-b4", "code": "Bài 4", "title": "Phép nhân và phép chia đa thức một biến" }
+            ]
+          },
+          {
+            "id": "7-ctst-c8",
+            "semester": 2,
+            "code": "Chương 8",
+            "title": "Tam giác",
+            "topicKey": "tam-giac-7",
+            "lessons": [
+              { "id": "7-ctst-c8-b1", "code": "Bài 1", "title": "Góc và cạnh của một tam giác" },
+              { "id": "7-ctst-c8-b2", "code": "Bài 2", "title": "Tam giác bằng nhau" },
+              { "id": "7-ctst-c8-b3", "code": "Bài 3", "title": "Tam giác cân" },
+              { "id": "7-ctst-c8-b4", "code": "Bài 4", "title": "Đường vuông góc và đường xiên" },
+              { "id": "7-ctst-c8-b5", "code": "Bài 5", "title": "Đường trung trực của một đoạn thẳng" },
+              { "id": "7-ctst-c8-b6", "code": "Bài 6", "title": "Tính chất ba đường trung trực của tam giác" },
+              { "id": "7-ctst-c8-b7", "code": "Bài 7", "title": "Tính chất ba đường trung tuyến của tam giác" },
+              { "id": "7-ctst-c8-b8", "code": "Bài 8", "title": "Tính chất ba đường cao của tam giác" },
+              { "id": "7-ctst-c8-b9", "code": "Bài 9", "title": "Tính chất ba đường phân giác của tam giác" }
+            ]
+          },
+          {
+            "id": "7-ctst-c9",
+            "semester": 2,
+            "code": "Chương 9",
+            "title": "Một số yếu tố xác suất",
+            "topicKey": "thong-ke-xac-suat-7",
+            "lessons": [
+              { "id": "7-ctst-c9-b1", "code": "Bài 1", "title": "Làm quen với biến cố ngẫu nhiên" },
+              { "id": "7-ctst-c9-b2", "code": "Bài 2", "title": "Làm quen với xác suất của biến cố ngẫu nhiên" }
+            ]
+          }
+        ],
+        "cd": [
+          {
+            "id": "7-cd-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Số hữu tỉ",
+            "topicKey": "so-huu-ti",
+            "lessons": [
+              { "id": "7-cd-c1-b1", "code": "Bài 1", "title": "Tập hợp Q các số hữu tỉ" },
+              { "id": "7-cd-c1-b2", "code": "Bài 2", "title": "Cộng, trừ, nhân, chia số hữu tỉ" },
+              { "id": "7-cd-c1-b3", "code": "Bài 3", "title": "Phép tính lũy thừa với số mũ tự nhiên của một số hữu tỉ" },
+              { "id": "7-cd-c1-b4", "code": "Bài 4", "title": "Thứ tự thực hiện các phép tính. Quy tắc dấu ngoặc" },
+              { "id": "7-cd-c1-b5", "code": "Bài 5", "title": "Biểu diễn thập phân của số hữu tỉ" }
+            ]
+          },
+          {
+            "id": "7-cd-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Số thực",
+            "topicKey": "so-thuc",
+            "lessons": [
+              { "id": "7-cd-c2-b1", "code": "Bài 1", "title": "Số vô tỉ. Căn bậc hai số học" },
+              { "id": "7-cd-c2-b2", "code": "Bài 2", "title": "Tập hợp R các số thực" },
+              { "id": "7-cd-c2-b3", "code": "Bài 3", "title": "Giá trị tuyệt đối của một số thực" },
+              { "id": "7-cd-c2-b4", "code": "Bài 4", "title": "Làm tròn và ước lượng" },
+              { "id": "7-cd-c2-b5", "code": "Bài 5", "title": "Tỉ lệ thức" },
+              { "id": "7-cd-c2-b6", "code": "Bài 6", "title": "Dãy tỉ số bằng nhau" },
+              { "id": "7-cd-c2-b7", "code": "Bài 7", "title": "Đại lượng tỉ lệ thuận" },
+              { "id": "7-cd-c2-b8", "code": "Bài 8", "title": "Đại lượng tỉ lệ nghịch" }
+            ]
+          },
+          {
+            "id": "7-cd-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Hình học trực quan",
+            "topicKey": "hinh-khoi-7",
+            "lessons": [
+              { "id": "7-cd-c3-b1", "code": "Bài 1", "title": "Hình hộp chữ nhật. Hình lập phương" },
+              { "id": "7-cd-c3-b2", "code": "Bài 2", "title": "Hình lăng trụ đứng tam giác. Hình lăng trụ đứng tứ giác" }
+            ]
+          },
+          {
+            "id": "7-cd-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Góc. Đường thẳng song song",
+            "topicKey": "goc-duong-thang-song-song",
+            "lessons": [
+              { "id": "7-cd-c4-b1", "code": "Bài 1", "title": "Góc ở vị trí đặc biệt" },
+              { "id": "7-cd-c4-b2", "code": "Bài 2", "title": "Tia phân giác của một góc" },
+              { "id": "7-cd-c4-b3", "code": "Bài 3", "title": "Hai đường thẳng song song" },
+              { "id": "7-cd-c4-b4", "code": "Bài 4", "title": "Định lí" }
+            ]
+          },
+          {
+            "id": "7-cd-c5",
+            "semester": 2,
+            "code": "Chương V",
+            "title": "Một số yếu tố thống kê và xác suất",
+            "topicKey": "thong-ke-xac-suat-7",
+            "lessons": [
+              { "id": "7-cd-c5-b1", "code": "Bài 1", "title": "Thu thập, phân loại và biểu diễn dữ liệu" },
+              { "id": "7-cd-c5-b2", "code": "Bài 2", "title": "Phân tích và xử lí dữ liệu" },
+              { "id": "7-cd-c5-b3", "code": "Bài 3", "title": "Biểu đồ đoạn thẳng" },
+              { "id": "7-cd-c5-b4", "code": "Bài 4", "title": "Biểu đồ hình quạt tròn" },
+              { "id": "7-cd-c5-b5", "code": "Bài 5", "title": "Biến cố trong một số trò chơi đơn giản" },
+              { "id": "7-cd-c5-b6", "code": "Bài 6", "title": "Xác suất của biến cố ngẫu nhiên trong một số trò chơi đơn giản" }
+            ]
+          },
+          {
+            "id": "7-cd-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Biểu thức đại số",
+            "topicKey": "bieu-thuc-dai-so-7",
+            "lessons": [
+              { "id": "7-cd-c6-b1", "code": "Bài 1", "title": "Biểu thức số. Biểu thức đại số" },
+              { "id": "7-cd-c6-b2", "code": "Bài 2", "title": "Đa thức một biến. Nghiệm của đa thức một biến" },
+              { "id": "7-cd-c6-b3", "code": "Bài 3", "title": "Phép cộng, phép trừ đa thức một biến" },
+              { "id": "7-cd-c6-b4", "code": "Bài 4", "title": "Phép nhân đa thức một biến" },
+              { "id": "7-cd-c6-b5", "code": "Bài 5", "title": "Phép chia đa thức một biến" }
+            ]
+          },
+          {
+            "id": "7-cd-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Tam giác",
+            "topicKey": "tam-giac-7",
+            "lessons": [
+              { "id": "7-cd-c7-b1", "code": "Bài 1", "title": "Tổng các góc của một tam giác" },
+              { "id": "7-cd-c7-b2", "code": "Bài 2", "title": "Quan hệ giữa góc và cạnh đối diện. Bất đẳng thức tam giác" },
+              { "id": "7-cd-c7-b3", "code": "Bài 3", "title": "Hai tam giác bằng nhau" },
+              { "id": "7-cd-c7-b4", "code": "Bài 4", "title": "Trường hợp bằng nhau thứ nhất của tam giác: cạnh - cạnh - cạnh" },
+              { "id": "7-cd-c7-b5", "code": "Bài 5", "title": "Trường hợp bằng nhau thứ hai của tam giác: cạnh - góc - cạnh" },
+              { "id": "7-cd-c7-b6", "code": "Bài 6", "title": "Trường hợp bằng nhau thứ ba của tam giác: góc - cạnh - góc" },
+              { "id": "7-cd-c7-b7", "code": "Bài 7", "title": "Tam giác cân" },
+              { "id": "7-cd-c7-b8", "code": "Bài 8", "title": "Đường vuông góc và đường xiên" },
+              { "id": "7-cd-c7-b9", "code": "Bài 9", "title": "Đường trung trực của một đoạn thẳng" },
+              { "id": "7-cd-c7-b10", "code": "Bài 10", "title": "Tính chất ba đường trung tuyến của tam giác" },
+              { "id": "7-cd-c7-b11", "code": "Bài 11", "title": "Tính chất ba đường phân giác của tam giác" },
+              { "id": "7-cd-c7-b12", "code": "Bài 12", "title": "Tính chất ba đường trung trực của tam giác" },
+              { "id": "7-cd-c7-b13", "code": "Bài 13", "title": "Tính chất ba đường cao của tam giác" }
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "label": "Toán Lớp 8",
+      "overview": "Đa thức, hằng đẳng thức đáng nhớ, phân thức đại số, tứ giác, định lí Thalès, tam giác đồng dạng, phương trình bậc nhất và hàm số bậc nhất, hình khối và xác suất.",
+      "books": {
+        "kntt": [
+          {
+            "id": "8-kntt-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Đa thức",
+            "topicKey": "da-thuc-8",
+            "lessons": [
+              { "id": "8-kntt-b1", "code": "Bài 1", "title": "Đơn thức" },
+              { "id": "8-kntt-b2", "code": "Bài 2", "title": "Đa thức" },
+              { "id": "8-kntt-b3", "code": "Bài 3", "title": "Phép cộng và phép trừ đa thức" },
+              { "id": "8-kntt-b4", "code": "Bài 4", "title": "Phép nhân đa thức" },
+              { "id": "8-kntt-b5", "code": "Bài 5", "title": "Phép chia đa thức cho đơn thức" }
+            ]
+          },
+          {
+            "id": "8-kntt-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Hằng đẳng thức đáng nhớ và ứng dụng",
+            "topicKey": "hang-dang-thuc",
+            "lessons": [
+              { "id": "8-kntt-b6", "code": "Bài 6", "title": "Hiệu hai bình phương. Bình phương của một tổng hay một hiệu" },
+              { "id": "8-kntt-b7", "code": "Bài 7", "title": "Lập phương của một tổng hay một hiệu" },
+              { "id": "8-kntt-b8", "code": "Bài 8", "title": "Tổng và hiệu hai lập phương" },
+              { "id": "8-kntt-b9", "code": "Bài 9", "title": "Phân tích đa thức thành nhân tử" }
+            ]
+          },
+          {
+            "id": "8-kntt-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Tứ giác",
+            "topicKey": "tu-giac",
+            "lessons": [
+              { "id": "8-kntt-b10", "code": "Bài 10", "title": "Tứ giác" },
+              { "id": "8-kntt-b11", "code": "Bài 11", "title": "Hình thang cân" },
+              { "id": "8-kntt-b12", "code": "Bài 12", "title": "Hình bình hành" },
+              { "id": "8-kntt-b13", "code": "Bài 13", "title": "Hình chữ nhật" },
+              { "id": "8-kntt-b14", "code": "Bài 14", "title": "Hình thoi và hình vuông" }
+            ]
+          },
+          {
+            "id": "8-kntt-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Định lí Thalès",
+            "topicKey": "thales-dong-dang",
+            "lessons": [
+              { "id": "8-kntt-b15", "code": "Bài 15", "title": "Định lí Thalès trong tam giác" },
+              { "id": "8-kntt-b16", "code": "Bài 16", "title": "Đường trung bình của tam giác" },
+              { "id": "8-kntt-b17", "code": "Bài 17", "title": "Tính chất đường phân giác của tam giác" }
+            ]
+          },
+          {
+            "id": "8-kntt-c5",
+            "semester": 1,
+            "code": "Chương V",
+            "title": "Dữ liệu và biểu đồ",
+            "topicKey": "thong-ke-xac-suat-8",
+            "lessons": [
+              { "id": "8-kntt-b18", "code": "Bài 18", "title": "Thu thập và phân loại dữ liệu" },
+              { "id": "8-kntt-b19", "code": "Bài 19", "title": "Biểu diễn dữ liệu bằng bảng, biểu đồ" },
+              { "id": "8-kntt-b20", "code": "Bài 20", "title": "Phân tích số liệu thống kê dựa vào biểu đồ" }
+            ]
+          },
+          {
+            "id": "8-kntt-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Phân thức đại số",
+            "topicKey": "phan-thuc-dai-so",
+            "lessons": [
+              { "id": "8-kntt-b21", "code": "Bài 21", "title": "Phân thức đại số" },
+              { "id": "8-kntt-b22", "code": "Bài 22", "title": "Tính chất cơ bản của phân thức đại số" },
+              { "id": "8-kntt-b23", "code": "Bài 23", "title": "Phép cộng và phép trừ phân thức đại số" },
+              { "id": "8-kntt-b24", "code": "Bài 24", "title": "Phép nhân và phép chia phân thức đại số" }
+            ]
+          },
+          {
+            "id": "8-kntt-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Phương trình bậc nhất và hàm số bậc nhất",
+            "topicKey": "phuong-trinh-ham-so-8",
+            "lessons": [
+              { "id": "8-kntt-b25", "code": "Bài 25", "title": "Phương trình bậc nhất một ẩn" },
+              { "id": "8-kntt-b26", "code": "Bài 26", "title": "Giải bài toán bằng cách lập phương trình" },
+              { "id": "8-kntt-b27", "code": "Bài 27", "title": "Khái niệm hàm số và đồ thị của hàm số" },
+              { "id": "8-kntt-b28", "code": "Bài 28", "title": "Hàm số bậc nhất và đồ thị của hàm số bậc nhất" },
+              { "id": "8-kntt-b29", "code": "Bài 29", "title": "Hệ số góc của đường thẳng" }
+            ]
+          },
+          {
+            "id": "8-kntt-c8",
+            "semester": 2,
+            "code": "Chương VIII",
+            "title": "Mở đầu về tính xác suất của biến cố",
+            "topicKey": "thong-ke-xac-suat-8",
+            "lessons": [
+              { "id": "8-kntt-b30", "code": "Bài 30", "title": "Kết quả có thể và kết quả thuận lợi" },
+              { "id": "8-kntt-b31", "code": "Bài 31", "title": "Cách tính xác suất của biến cố bằng tỉ số" },
+              { "id": "8-kntt-b32", "code": "Bài 32", "title": "Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng" }
+            ]
+          },
+          {
+            "id": "8-kntt-c9",
+            "semester": 2,
+            "code": "Chương IX",
+            "title": "Tam giác đồng dạng",
+            "topicKey": "thales-dong-dang",
+            "lessons": [
+              { "id": "8-kntt-b33", "code": "Bài 33", "title": "Hai tam giác đồng dạng" },
+              { "id": "8-kntt-b34", "code": "Bài 34", "title": "Ba trường hợp đồng dạng của hai tam giác" },
+              { "id": "8-kntt-b35", "code": "Bài 35", "title": "Định lí Pythagore và ứng dụng" },
+              { "id": "8-kntt-b36", "code": "Bài 36", "title": "Các trường hợp đồng dạng của hai tam giác vuông" },
+              { "id": "8-kntt-b37", "code": "Bài 37", "title": "Hình đồng dạng" }
+            ]
+          },
+          {
+            "id": "8-kntt-c10",
+            "semester": 2,
+            "code": "Chương X",
+            "title": "Một số hình khối trong thực tiễn",
+            "topicKey": "hinh-khoi-8",
+            "lessons": [
+              { "id": "8-kntt-b38", "code": "Bài 38", "title": "Hình chóp tam giác đều" },
+              { "id": "8-kntt-b39", "code": "Bài 39", "title": "Hình chóp tứ giác đều" }
+            ]
+          }
+        ],
+        "ctst": [
+          {
+            "id": "8-ctst-c1",
+            "semester": 1,
+            "code": "Chương 1",
+            "title": "Biểu thức đại số",
+            "topicKey": "hang-dang-thuc",
+            "lessons": [
+              { "id": "8-ctst-c1-b1", "code": "Bài 1", "title": "Đơn thức và đa thức nhiều biến" },
+              { "id": "8-ctst-c1-b2", "code": "Bài 2", "title": "Các phép toán với đa thức nhiều biến" },
+              { "id": "8-ctst-c1-b3", "code": "Bài 3", "title": "Hằng đẳng thức đáng nhớ" },
+              { "id": "8-ctst-c1-b4", "code": "Bài 4", "title": "Phân tích đa thức thành nhân tử" },
+              { "id": "8-ctst-c1-b5", "code": "Bài 5", "title": "Phân thức đại số" },
+              { "id": "8-ctst-c1-b6", "code": "Bài 6", "title": "Cộng, trừ phân thức" },
+              { "id": "8-ctst-c1-b7", "code": "Bài 7", "title": "Nhân, chia phân thức" }
+            ]
+          },
+          {
+            "id": "8-ctst-c2",
+            "semester": 1,
+            "code": "Chương 2",
+            "title": "Các hình khối trong thực tiễn",
+            "topicKey": "hinh-khoi-8",
+            "lessons": [
+              { "id": "8-ctst-c2-b1", "code": "Bài 1", "title": "Hình chóp tam giác đều - Hình chóp tứ giác đều" },
+              { "id": "8-ctst-c2-b2", "code": "Bài 2", "title": "Diện tích xung quanh và thể tích của hình chóp tam giác đều, hình chóp tứ giác đều" }
+            ]
+          },
+          {
+            "id": "8-ctst-c3",
+            "semester": 1,
+            "code": "Chương 3",
+            "title": "Định lí Pythagore. Các loại tứ giác thường gặp",
+            "topicKey": "tu-giac",
+            "lessons": [
+              { "id": "8-ctst-c3-b1", "code": "Bài 1", "title": "Định lí Pythagore" },
+              { "id": "8-ctst-c3-b2", "code": "Bài 2", "title": "Tứ giác" },
+              { "id": "8-ctst-c3-b3", "code": "Bài 3", "title": "Hình thang - Hình thang cân" },
+              { "id": "8-ctst-c3-b4", "code": "Bài 4", "title": "Hình bình hành - Hình thoi" },
+              { "id": "8-ctst-c3-b5", "code": "Bài 5", "title": "Hình chữ nhật - Hình vuông" }
+            ]
+          },
+          {
+            "id": "8-ctst-c4",
+            "semester": 1,
+            "code": "Chương 4",
+            "title": "Một số yếu tố thống kê",
+            "topicKey": "thong-ke-xac-suat-8",
+            "lessons": [
+              { "id": "8-ctst-c4-b1", "code": "Bài 1", "title": "Thu thập và phân loại dữ liệu" },
+              { "id": "8-ctst-c4-b2", "code": "Bài 2", "title": "Lựa chọn dạng biểu đồ để biểu diễn dữ liệu" },
+              { "id": "8-ctst-c4-b3", "code": "Bài 3", "title": "Phân tích dữ liệu" }
+            ]
+          },
+          {
+            "id": "8-ctst-c5",
+            "semester": 2,
+            "code": "Chương 5",
+            "title": "Hàm số và đồ thị",
+            "topicKey": "phuong-trinh-ham-so-8",
+            "lessons": [
+              { "id": "8-ctst-c5-b1", "code": "Bài 1", "title": "Khái niệm hàm số" },
+              { "id": "8-ctst-c5-b2", "code": "Bài 2", "title": "Tọa độ của một điểm và đồ thị của hàm số" },
+              { "id": "8-ctst-c5-b3", "code": "Bài 3", "title": "Hàm số bậc nhất y = ax + b (a ≠ 0)" },
+              { "id": "8-ctst-c5-b4", "code": "Bài 4", "title": "Hệ số góc của đường thẳng" }
+            ]
+          },
+          {
+            "id": "8-ctst-c6",
+            "semester": 2,
+            "code": "Chương 6",
+            "title": "Phương trình",
+            "topicKey": "phuong-trinh-ham-so-8",
+            "lessons": [
+              { "id": "8-ctst-c6-b1", "code": "Bài 1", "title": "Phương trình bậc nhất một ẩn" },
+              { "id": "8-ctst-c6-b2", "code": "Bài 2", "title": "Giải bài toán bằng cách lập phương trình bậc nhất" }
+            ]
+          },
+          {
+            "id": "8-ctst-c7",
+            "semester": 2,
+            "code": "Chương 7",
+            "title": "Định lí Thalès",
+            "topicKey": "thales-dong-dang",
+            "lessons": [
+              { "id": "8-ctst-c7-b1", "code": "Bài 1", "title": "Định lí Thalès trong tam giác" },
+              { "id": "8-ctst-c7-b2", "code": "Bài 2", "title": "Đường trung bình của tam giác" },
+              { "id": "8-ctst-c7-b3", "code": "Bài 3", "title": "Tính chất đường phân giác của tam giác" }
+            ]
+          },
+          {
+            "id": "8-ctst-c8",
+            "semester": 2,
+            "code": "Chương 8",
+            "title": "Hình đồng dạng",
+            "topicKey": "thales-dong-dang",
+            "lessons": [
+              { "id": "8-ctst-c8-b1", "code": "Bài 1", "title": "Hai tam giác đồng dạng" },
+              { "id": "8-ctst-c8-b2", "code": "Bài 2", "title": "Các trường hợp đồng dạng của hai tam giác" },
+              { "id": "8-ctst-c8-b3", "code": "Bài 3", "title": "Các trường hợp đồng dạng của hai tam giác vuông" },
+              { "id": "8-ctst-c8-b4", "code": "Bài 4", "title": "Hai hình đồng dạng" }
+            ]
+          },
+          {
+            "id": "8-ctst-c9",
+            "semester": 2,
+            "code": "Chương 9",
+            "title": "Một số yếu tố xác suất",
+            "topicKey": "thong-ke-xac-suat-8",
+            "lessons": [
+              { "id": "8-ctst-c9-b1", "code": "Bài 1", "title": "Mô tả xác suất bằng tỉ số" },
+              { "id": "8-ctst-c9-b2", "code": "Bài 2", "title": "Xác suất lí thuyết và xác suất thực nghiệm" }
+            ]
+          }
+        ],
+        "cd": [
+          {
+            "id": "8-cd-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Đa thức nhiều biến",
+            "topicKey": "hang-dang-thuc",
+            "lessons": [
+              { "id": "8-cd-c1-b1", "code": "Bài 1", "title": "Đơn thức nhiều biến. Đa thức nhiều biến" },
+              { "id": "8-cd-c1-b2", "code": "Bài 2", "title": "Các phép tính với đa thức nhiều biến" },
+              { "id": "8-cd-c1-b3", "code": "Bài 3", "title": "Hằng đẳng thức đáng nhớ" },
+              { "id": "8-cd-c1-b4", "code": "Bài 4", "title": "Vận dụng hằng đẳng thức vào phân tích đa thức thành nhân tử" }
+            ]
+          },
+          {
+            "id": "8-cd-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Phân thức đại số",
+            "topicKey": "phan-thuc-dai-so",
+            "lessons": [
+              { "id": "8-cd-c2-b1", "code": "Bài 1", "title": "Phân thức đại số" },
+              { "id": "8-cd-c2-b2", "code": "Bài 2", "title": "Phép cộng, phép trừ phân thức đại số" },
+              { "id": "8-cd-c2-b3", "code": "Bài 3", "title": "Phép nhân, phép chia phân thức đại số" }
+            ]
+          },
+          {
+            "id": "8-cd-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Hàm số và đồ thị",
+            "topicKey": "phuong-trinh-ham-so-8",
+            "lessons": [
+              { "id": "8-cd-c3-b1", "code": "Bài 1", "title": "Hàm số" },
+              { "id": "8-cd-c3-b2", "code": "Bài 2", "title": "Mặt phẳng tọa độ. Đồ thị của hàm số" },
+              { "id": "8-cd-c3-b3", "code": "Bài 3", "title": "Hàm số bậc nhất y = ax + b (a ≠ 0)" },
+              { "id": "8-cd-c3-b4", "code": "Bài 4", "title": "Đồ thị của hàm số bậc nhất y = ax + b (a ≠ 0)" }
+            ]
+          },
+          {
+            "id": "8-cd-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Hình học trực quan",
+            "topicKey": "hinh-khoi-8",
+            "lessons": [
+              { "id": "8-cd-c4-b1", "code": "Bài 1", "title": "Hình chóp tam giác đều" },
+              { "id": "8-cd-c4-b2", "code": "Bài 2", "title": "Hình chóp tứ giác đều" }
+            ]
+          },
+          {
+            "id": "8-cd-c5",
+            "semester": 1,
+            "code": "Chương V",
+            "title": "Tam giác. Tứ giác",
+            "topicKey": "tu-giac",
+            "lessons": [
+              { "id": "8-cd-c5-b1", "code": "Bài 1", "title": "Định lí Pythagore" },
+              { "id": "8-cd-c5-b2", "code": "Bài 2", "title": "Tứ giác" },
+              { "id": "8-cd-c5-b3", "code": "Bài 3", "title": "Hình thang cân" },
+              { "id": "8-cd-c5-b4", "code": "Bài 4", "title": "Hình bình hành" },
+              { "id": "8-cd-c5-b5", "code": "Bài 5", "title": "Hình chữ nhật" },
+              { "id": "8-cd-c5-b6", "code": "Bài 6", "title": "Hình thoi" },
+              { "id": "8-cd-c5-b7", "code": "Bài 7", "title": "Hình vuông" }
+            ]
+          },
+          {
+            "id": "8-cd-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Một số yếu tố thống kê và xác suất",
+            "topicKey": "thong-ke-xac-suat-8",
+            "lessons": [
+              { "id": "8-cd-c6-b1", "code": "Bài 1", "title": "Thu thập và phân loại dữ liệu" },
+              { "id": "8-cd-c6-b2", "code": "Bài 2", "title": "Mô tả và biểu diễn dữ liệu trên các bảng, biểu đồ" },
+              { "id": "8-cd-c6-b3", "code": "Bài 3", "title": "Phân tích và xử lí dữ liệu thu được ở dạng bảng, biểu đồ" },
+              { "id": "8-cd-c6-b4", "code": "Bài 4", "title": "Xác suất của biến cố ngẫu nhiên trong một số trò chơi đơn giản" },
+              { "id": "8-cd-c6-b5", "code": "Bài 5", "title": "Xác suất thực nghiệm của một biến cố trong một số trò chơi đơn giản" }
+            ]
+          },
+          {
+            "id": "8-cd-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Phương trình bậc nhất một ẩn",
+            "topicKey": "phuong-trinh-ham-so-8",
+            "lessons": [
+              { "id": "8-cd-c7-b1", "code": "Bài 1", "title": "Phương trình bậc nhất một ẩn" },
+              { "id": "8-cd-c7-b2", "code": "Bài 2", "title": "Ứng dụng của phương trình bậc nhất một ẩn" }
+            ]
+          },
+          {
+            "id": "8-cd-c8",
+            "semester": 2,
+            "code": "Chương VIII",
+            "title": "Tam giác đồng dạng. Hình đồng dạng",
+            "topicKey": "thales-dong-dang",
+            "lessons": [
+              { "id": "8-cd-c8-b1", "code": "Bài 1", "title": "Định lí Thalès trong tam giác" },
+              { "id": "8-cd-c8-b2", "code": "Bài 2", "title": "Ứng dụng của định lí Thalès trong tam giác" },
+              { "id": "8-cd-c8-b3", "code": "Bài 3", "title": "Đường trung bình của tam giác" },
+              { "id": "8-cd-c8-b4", "code": "Bài 4", "title": "Tính chất đường phân giác của tam giác" },
+              { "id": "8-cd-c8-b5", "code": "Bài 5", "title": "Tam giác đồng dạng" },
+              { "id": "8-cd-c8-b6", "code": "Bài 6", "title": "Trường hợp đồng dạng thứ nhất của tam giác" },
+              { "id": "8-cd-c8-b7", "code": "Bài 7", "title": "Trường hợp đồng dạng thứ hai của tam giác" },
+              { "id": "8-cd-c8-b8", "code": "Bài 8", "title": "Trường hợp đồng dạng thứ ba của tam giác" },
+              { "id": "8-cd-c8-b9", "code": "Bài 9", "title": "Hình đồng dạng" },
+              { "id": "8-cd-c8-b10", "code": "Bài 10", "title": "Hình đồng dạng trong thực tiễn" }
+            ]
+          }
+        ]
+      }
+    },
+    "9": {
+      "label": "Toán Lớp 9",
+      "overview": "Hệ phương trình bậc nhất hai ẩn, bất phương trình, căn thức, hệ thức lượng trong tam giác vuông, đường tròn, hàm số bậc hai và phương trình bậc hai, thống kê – xác suất và hình học không gian.",
+      "books": {
+        "kntt": [
+          {
+            "id": "9-kntt-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",
+            "topicKey": "he-phuong-trinh-9",
+            "lessons": [
+              { "id": "9-kntt-b1", "code": "Bài 1", "title": "Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn" },
+              { "id": "9-kntt-b2", "code": "Bài 2", "title": "Giải hệ hai phương trình bậc nhất hai ẩn" },
+              { "id": "9-kntt-b3", "code": "Bài 3", "title": "Giải bài toán bằng cách lập hệ phương trình" }
+            ]
+          },
+          {
+            "id": "9-kntt-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Phương trình và bất phương trình bậc nhất một ẩn",
+            "topicKey": "bat-phuong-trinh-9",
+            "lessons": [
+              { "id": "9-kntt-b4", "code": "Bài 4", "title": "Phương trình quy về phương trình bậc nhất một ẩn" },
+              { "id": "9-kntt-b5", "code": "Bài 5", "title": "Bất đẳng thức và tính chất" },
+              { "id": "9-kntt-b6", "code": "Bài 6", "title": "Bất phương trình bậc nhất một ẩn" }
+            ]
+          },
+          {
+            "id": "9-kntt-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Căn bậc hai và căn bậc ba",
+            "topicKey": "can-thuc-9",
+            "lessons": [
+              { "id": "9-kntt-b7", "code": "Bài 7", "title": "Căn bậc hai và căn thức bậc hai" },
+              { "id": "9-kntt-b8", "code": "Bài 8", "title": "Khai căn bậc hai với phép nhân và phép chia" },
+              { "id": "9-kntt-b9", "code": "Bài 9", "title": "Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai" },
+              { "id": "9-kntt-b10", "code": "Bài 10", "title": "Căn bậc ba và căn thức bậc ba" }
+            ]
+          },
+          {
+            "id": "9-kntt-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Hệ thức lượng trong tam giác vuông",
+            "topicKey": "he-thuc-luong-9",
+            "lessons": [
+              { "id": "9-kntt-b11", "code": "Bài 11", "title": "Tỉ số lượng giác của góc nhọn" },
+              { "id": "9-kntt-b12", "code": "Bài 12", "title": "Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng" }
+            ]
+          },
+          {
+            "id": "9-kntt-c5",
+            "semester": 1,
+            "code": "Chương V",
+            "title": "Đường tròn",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-kntt-b13", "code": "Bài 13", "title": "Mở đầu về đường tròn" },
+              { "id": "9-kntt-b14", "code": "Bài 14", "title": "Cung và dây của một đường tròn" },
+              { "id": "9-kntt-b15", "code": "Bài 15", "title": "Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên" },
+              { "id": "9-kntt-b16", "code": "Bài 16", "title": "Vị trí tương đối của đường thẳng và đường tròn" },
+              { "id": "9-kntt-b17", "code": "Bài 17", "title": "Vị trí tương đối của hai đường tròn" }
+            ]
+          },
+          {
+            "id": "9-kntt-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+            "topicKey": "ham-so-pt-bac-hai-9",
+            "lessons": [
+              { "id": "9-kntt-b18", "code": "Bài 18", "title": "Hàm số y = ax² (a ≠ 0)" },
+              { "id": "9-kntt-b19", "code": "Bài 19", "title": "Phương trình bậc hai một ẩn" },
+              { "id": "9-kntt-b20", "code": "Bài 20", "title": "Định lí Viète và ứng dụng" },
+              { "id": "9-kntt-b21", "code": "Bài 21", "title": "Giải bài toán bằng cách lập phương trình" }
+            ]
+          },
+          {
+            "id": "9-kntt-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Tần số và tần số tương đối",
+            "topicKey": "thong-ke-xac-suat-9",
+            "lessons": [
+              { "id": "9-kntt-b22", "code": "Bài 22", "title": "Bảng tần số và biểu đồ tần số" },
+              { "id": "9-kntt-b23", "code": "Bài 23", "title": "Bảng tần số tương đối và biểu đồ tần số tương đối" },
+              { "id": "9-kntt-b24", "code": "Bài 24", "title": "Bảng tần số, tần số tương đối ghép nhóm và biểu đồ" }
+            ]
+          },
+          {
+            "id": "9-kntt-c8",
+            "semester": 2,
+            "code": "Chương VIII",
+            "title": "Xác suất của biến cố trong một số mô hình xác suất đơn giản",
+            "topicKey": "thong-ke-xac-suat-9",
+            "lessons": [
+              { "id": "9-kntt-b25", "code": "Bài 25", "title": "Phép thử ngẫu nhiên và không gian mẫu" },
+              { "id": "9-kntt-b26", "code": "Bài 26", "title": "Xác suất của biến cố liên quan tới phép thử" }
+            ]
+          },
+          {
+            "id": "9-kntt-c9",
+            "semester": 2,
+            "code": "Chương IX",
+            "title": "Đường tròn ngoại tiếp và đường tròn nội tiếp",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-kntt-b27", "code": "Bài 27", "title": "Góc nội tiếp" },
+              { "id": "9-kntt-b28", "code": "Bài 28", "title": "Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác" },
+              { "id": "9-kntt-b29", "code": "Bài 29", "title": "Tứ giác nội tiếp" },
+              { "id": "9-kntt-b30", "code": "Bài 30", "title": "Đa giác đều" }
+            ]
+          },
+          {
+            "id": "9-kntt-c10",
+            "semester": 2,
+            "code": "Chương X",
+            "title": "Một số hình khối trong thực tiễn",
+            "topicKey": "hinh-khong-gian-9",
+            "lessons": [
+              { "id": "9-kntt-b31", "code": "Bài 31", "title": "Hình trụ và hình nón" },
+              { "id": "9-kntt-b32", "code": "Bài 32", "title": "Hình cầu" }
+            ]
+          }
+        ],
+        "ctst": [
+          {
+            "id": "9-ctst-c1",
+            "semester": 1,
+            "code": "Chương 1",
+            "title": "Phương trình và hệ phương trình",
+            "topicKey": "he-phuong-trinh-9",
+            "lessons": [
+              { "id": "9-ctst-c1-b1", "code": "Bài 1", "title": "Phương trình quy về phương trình bậc nhất một ẩn" },
+              { "id": "9-ctst-c1-b2", "code": "Bài 2", "title": "Phương trình bậc nhất hai ẩn và hệ hai phương trình bậc nhất hai ẩn" },
+              { "id": "9-ctst-c1-b3", "code": "Bài 3", "title": "Giải hệ hai phương trình bậc nhất hai ẩn" }
+            ]
+          },
+          {
+            "id": "9-ctst-c2",
+            "semester": 1,
+            "code": "Chương 2",
+            "title": "Bất đẳng thức. Bất phương trình bậc nhất một ẩn",
+            "topicKey": "bat-phuong-trinh-9",
+            "lessons": [
+              { "id": "9-ctst-c2-b1", "code": "Bài 1", "title": "Bất đẳng thức" },
+              { "id": "9-ctst-c2-b2", "code": "Bài 2", "title": "Bất phương trình bậc nhất một ẩn" }
+            ]
+          },
+          {
+            "id": "9-ctst-c3",
+            "semester": 1,
+            "code": "Chương 3",
+            "title": "Căn thức",
+            "topicKey": "can-thuc-9",
+            "lessons": [
+              { "id": "9-ctst-c3-b1", "code": "Bài 1", "title": "Căn bậc hai" },
+              { "id": "9-ctst-c3-b2", "code": "Bài 2", "title": "Căn bậc ba" },
+              { "id": "9-ctst-c3-b3", "code": "Bài 3", "title": "Tính chất của phép khai phương" },
+              { "id": "9-ctst-c3-b4", "code": "Bài 4", "title": "Biến đổi đơn giản biểu thức chứa căn thức bậc hai" }
+            ]
+          },
+          {
+            "id": "9-ctst-c4",
+            "semester": 1,
+            "code": "Chương 4",
+            "title": "Hệ thức lượng trong tam giác vuông",
+            "topicKey": "he-thuc-luong-9",
+            "lessons": [
+              { "id": "9-ctst-c4-b1", "code": "Bài 1", "title": "Tỉ số lượng giác của góc nhọn" },
+              { "id": "9-ctst-c4-b2", "code": "Bài 2", "title": "Hệ thức giữa cạnh và góc của tam giác vuông" }
+            ]
+          },
+          {
+            "id": "9-ctst-c5",
+            "semester": 1,
+            "code": "Chương 5",
+            "title": "Đường tròn",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-ctst-c5-b1", "code": "Bài 1", "title": "Đường tròn" },
+              { "id": "9-ctst-c5-b2", "code": "Bài 2", "title": "Tiếp tuyến của đường tròn" },
+              { "id": "9-ctst-c5-b3", "code": "Bài 3", "title": "Góc ở tâm, góc nội tiếp" },
+              { "id": "9-ctst-c5-b4", "code": "Bài 4", "title": "Hình quạt tròn và hình vành khuyên" }
+            ]
+          },
+          {
+            "id": "9-ctst-c6",
+            "semester": 2,
+            "code": "Chương 6",
+            "title": "Hàm số y = ax² (a ≠ 0) và Phương trình bậc hai một ẩn",
+            "topicKey": "ham-so-pt-bac-hai-9",
+            "lessons": [
+              { "id": "9-ctst-c6-b1", "code": "Bài 1", "title": "Hàm số và đồ thị của hàm số y = ax² (a ≠ 0)" },
+              { "id": "9-ctst-c6-b2", "code": "Bài 2", "title": "Phương trình bậc hai một ẩn" },
+              { "id": "9-ctst-c6-b3", "code": "Bài 3", "title": "Định lí Viète" }
+            ]
+          },
+          {
+            "id": "9-ctst-c7",
+            "semester": 2,
+            "code": "Chương 7",
+            "title": "Một số yếu tố thống kê",
+            "topicKey": "thong-ke-xac-suat-9",
+            "lessons": [
+              { "id": "9-ctst-c7-b1", "code": "Bài 1", "title": "Bảng tần số và biểu đồ tần số" },
+              { "id": "9-ctst-c7-b2", "code": "Bài 2", "title": "Bảng tần số tương đối và biểu đồ tần số tương đối" },
+              { "id": "9-ctst-c7-b3", "code": "Bài 3", "title": "Biểu diễn số liệu ghép nhóm" }
+            ]
+          },
+          {
+            "id": "9-ctst-c8",
+            "semester": 2,
+            "code": "Chương 8",
+            "title": "Một số yếu tố xác suất",
+            "topicKey": "thong-ke-xac-suat-9",
+            "lessons": [
+              { "id": "9-ctst-c8-b1", "code": "Bài 1", "title": "Không gian mẫu và biến cố" },
+              { "id": "9-ctst-c8-b2", "code": "Bài 2", "title": "Xác suất của biến cố" }
+            ]
+          },
+          {
+            "id": "9-ctst-c9",
+            "semester": 2,
+            "code": "Chương 9",
+            "title": "Tứ giác nội tiếp. Đa giác đều",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-ctst-c9-b1", "code": "Bài 1", "title": "Đường tròn ngoại tiếp tam giác. Đường tròn nội tiếp tam giác" },
+              { "id": "9-ctst-c9-b2", "code": "Bài 2", "title": "Tứ giác nội tiếp" },
+              { "id": "9-ctst-c9-b3", "code": "Bài 3", "title": "Đa giác đều và phép quay" }
+            ]
+          },
+          {
+            "id": "9-ctst-c10",
+            "semester": 2,
+            "code": "Chương 10",
+            "title": "Các hình khối trong thực tiễn",
+            "topicKey": "hinh-khong-gian-9",
+            "lessons": [
+              { "id": "9-ctst-c10-b1", "code": "Bài 1", "title": "Hình trụ" },
+              { "id": "9-ctst-c10-b2", "code": "Bài 2", "title": "Hình nón" },
+              { "id": "9-ctst-c10-b3", "code": "Bài 3", "title": "Hình cầu" }
+            ]
+          }
+        ],
+        "cd": [
+          {
+            "id": "9-cd-c1",
+            "semester": 1,
+            "code": "Chương I",
+            "title": "Phương trình và hệ phương trình bậc nhất",
+            "topicKey": "he-phuong-trinh-9",
+            "lessons": [
+              { "id": "9-cd-c1-b1", "code": "Bài 1", "title": "Phương trình quy về phương trình bậc nhất một ẩn" },
+              { "id": "9-cd-c1-b2", "code": "Bài 2", "title": "Phương trình bậc nhất hai ẩn. Hệ hai phương trình bậc nhất hai ẩn" },
+              { "id": "9-cd-c1-b3", "code": "Bài 3", "title": "Giải hệ hai phương trình bậc nhất hai ẩn" }
+            ]
+          },
+          {
+            "id": "9-cd-c2",
+            "semester": 1,
+            "code": "Chương II",
+            "title": "Bất đẳng thức. Bất phương trình bậc nhất một ẩn",
+            "topicKey": "bat-phuong-trinh-9",
+            "lessons": [
+              { "id": "9-cd-c2-b1", "code": "Bài 1", "title": "Bất đẳng thức" },
+              { "id": "9-cd-c2-b2", "code": "Bài 2", "title": "Bất phương trình bậc nhất một ẩn" }
+            ]
+          },
+          {
+            "id": "9-cd-c3",
+            "semester": 1,
+            "code": "Chương III",
+            "title": "Căn thức",
+            "topicKey": "can-thuc-9",
+            "lessons": [
+              { "id": "9-cd-c3-b1", "code": "Bài 1", "title": "Căn bậc hai và căn bậc ba của số thực" },
+              { "id": "9-cd-c3-b2", "code": "Bài 2", "title": "Một số phép tính về căn bậc hai của số thực" },
+              { "id": "9-cd-c3-b3", "code": "Bài 3", "title": "Căn thức bậc hai và căn thức bậc ba của biểu thức đại số" },
+              { "id": "9-cd-c3-b4", "code": "Bài 4", "title": "Một số phép biến đổi căn thức bậc hai của biểu thức đại số" }
+            ]
+          },
+          {
+            "id": "9-cd-c4",
+            "semester": 1,
+            "code": "Chương IV",
+            "title": "Hệ thức lượng trong tam giác vuông",
+            "topicKey": "he-thuc-luong-9",
+            "lessons": [
+              { "id": "9-cd-c4-b1", "code": "Bài 1", "title": "Tỉ số lượng giác của góc nhọn" },
+              { "id": "9-cd-c4-b2", "code": "Bài 2", "title": "Một số hệ thức về cạnh và góc trong tam giác vuông" },
+              { "id": "9-cd-c4-b3", "code": "Bài 3", "title": "Ứng dụng của tỉ số lượng giác của góc nhọn" }
+            ]
+          },
+          {
+            "id": "9-cd-c5",
+            "semester": 1,
+            "code": "Chương V",
+            "title": "Đường tròn",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-cd-c5-b1", "code": "Bài 1", "title": "Đường tròn. Vị trí tương đối của hai đường tròn" },
+              { "id": "9-cd-c5-b2", "code": "Bài 2", "title": "Vị trí tương đối của đường thẳng và đường tròn" },
+              { "id": "9-cd-c5-b3", "code": "Bài 3", "title": "Tiếp tuyến của đường tròn" },
+              { "id": "9-cd-c5-b4", "code": "Bài 4", "title": "Góc ở tâm. Góc nội tiếp" },
+              { "id": "9-cd-c5-b5", "code": "Bài 5", "title": "Độ dài cung tròn, diện tích hình quạt tròn, diện tích hình vành khuyên" }
+            ]
+          },
+          {
+            "id": "9-cd-c6",
+            "semester": 2,
+            "code": "Chương VI",
+            "title": "Một số yếu tố thống kê và xác suất",
+            "topicKey": "thong-ke-xac-suat-9",
+            "lessons": [
+              { "id": "9-cd-c6-b1", "code": "Bài 1", "title": "Mô tả và biểu diễn dữ liệu trên các bảng, biểu đồ" },
+              { "id": "9-cd-c6-b2", "code": "Bài 2", "title": "Tần số. Tần số tương đối" },
+              { "id": "9-cd-c6-b3", "code": "Bài 3", "title": "Tần số ghép nhóm. Tần số tương đối ghép nhóm" },
+              { "id": "9-cd-c6-b4", "code": "Bài 4", "title": "Phép thử ngẫu nhiên và không gian mẫu. Xác suất của biến cố" }
+            ]
+          },
+          {
+            "id": "9-cd-c7",
+            "semester": 2,
+            "code": "Chương VII",
+            "title": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+            "topicKey": "ham-so-pt-bac-hai-9",
+            "lessons": [
+              { "id": "9-cd-c7-b1", "code": "Bài 1", "title": "Hàm số y = ax² (a ≠ 0)" },
+              { "id": "9-cd-c7-b2", "code": "Bài 2", "title": "Phương trình bậc hai một ẩn" },
+              { "id": "9-cd-c7-b3", "code": "Bài 3", "title": "Định lí Viète" }
+            ]
+          },
+          {
+            "id": "9-cd-c8",
+            "semester": 2,
+            "code": "Chương VIII",
+            "title": "Đường tròn ngoại tiếp và đường tròn nội tiếp",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-cd-c8-b1", "code": "Bài 1", "title": "Đường tròn ngoại tiếp tam giác. Đường tròn nội tiếp tam giác" },
+              { "id": "9-cd-c8-b2", "code": "Bài 2", "title": "Tứ giác nội tiếp đường tròn" }
+            ]
+          },
+          {
+            "id": "9-cd-c9",
+            "semester": 2,
+            "code": "Chương IX",
+            "title": "Đa giác đều",
+            "topicKey": "duong-tron-9",
+            "lessons": [
+              { "id": "9-cd-c9-b1", "code": "Bài 1", "title": "Đa giác đều. Hình đa giác đều trong thực tiễn" },
+              { "id": "9-cd-c9-b2", "code": "Bài 2", "title": "Phép quay" }
+            ]
+          },
+          {
+            "id": "9-cd-c10",
+            "semester": 2,
+            "code": "Chương X",
+            "title": "Hình học trực quan",
+            "topicKey": "hinh-khong-gian-9",
+            "lessons": [
+              { "id": "9-cd-c10-b1", "code": "Bài 1", "title": "Hình trụ" },
+              { "id": "9-cd-c10-b2", "code": "Bài 2", "title": "Hình nón" },
+              { "id": "9-cd-c10-b3", "code": "Bài 3", "title": "Hình cầu" }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topics": [
+    { "key": "so-tu-nhien", "grade": 6, "name": "Số tự nhiên & Phép tính" },
+    { "key": "chia-het-uoc-boi", "grade": 6, "name": "Tính chia hết, Ước và Bội" },
+    { "key": "so-nguyen", "grade": 6, "name": "Số nguyên" },
+    { "key": "phan-so", "grade": 6, "name": "Phân số" },
+    { "key": "so-thap-phan", "grade": 6, "name": "Số thập phân & Tỉ số phần trăm" },
+    { "key": "hinh-hoc-truc-quan-6", "grade": 6, "name": "Hình học trực quan & Đối xứng" },
+    { "key": "hinh-hoc-phang-6", "grade": 6, "name": "Điểm, Đoạn thẳng & Góc" },
+    { "key": "thong-ke-xac-suat-6", "grade": 6, "name": "Thống kê & Xác suất thực nghiệm" },
+    { "key": "so-huu-ti", "grade": 7, "name": "Số hữu tỉ" },
+    { "key": "so-thuc", "grade": 7, "name": "Số thực & Căn bậc hai số học" },
+    { "key": "ti-le-thuc", "grade": 7, "name": "Tỉ lệ thức & Đại lượng tỉ lệ" },
+    { "key": "bieu-thuc-dai-so-7", "grade": 7, "name": "Biểu thức đại số & Đa thức một biến" },
+    { "key": "goc-duong-thang-song-song", "grade": 7, "name": "Góc & Đường thẳng song song" },
+    { "key": "tam-giac-7", "grade": 7, "name": "Tam giác & Đường đồng quy" },
+    { "key": "hinh-khoi-7", "grade": 7, "name": "Hình hộp, Hình lập phương & Lăng trụ đứng" },
+    { "key": "thong-ke-xac-suat-7", "grade": 7, "name": "Biểu đồ & Xác suất biến cố" },
+    { "key": "da-thuc-8", "grade": 8, "name": "Đơn thức & Đa thức nhiều biến" },
+    { "key": "hang-dang-thuc", "grade": 8, "name": "Hằng đẳng thức & Phân tích nhân tử" },
+    { "key": "phan-thuc-dai-so", "grade": 8, "name": "Phân thức đại số" },
+    { "key": "phuong-trinh-ham-so-8", "grade": 8, "name": "Phương trình bậc nhất & Hàm số bậc nhất" },
+    { "key": "tu-giac", "grade": 8, "name": "Tứ giác & Định lí Pythagore" },
+    { "key": "thales-dong-dang", "grade": 8, "name": "Định lí Thalès & Tam giác đồng dạng" },
+    { "key": "hinh-khoi-8", "grade": 8, "name": "Hình chóp tam giác đều, tứ giác đều" },
+    { "key": "thong-ke-xac-suat-8", "grade": 8, "name": "Dữ liệu, Biểu đồ & Xác suất tỉ số" },
+    { "key": "he-phuong-trinh-9", "grade": 9, "name": "Phương trình & Hệ phương trình bậc nhất" },
+    { "key": "bat-phuong-trinh-9", "grade": 9, "name": "Bất đẳng thức & Bất phương trình bậc nhất" },
+    { "key": "can-thuc-9", "grade": 9, "name": "Căn bậc hai & Căn bậc ba" },
+    { "key": "ham-so-pt-bac-hai-9", "grade": 9, "name": "Hàm số y = ax² & Phương trình bậc hai" },
+    { "key": "he-thuc-luong-9", "grade": 9, "name": "Hệ thức lượng trong tam giác vuông" },
+    { "key": "duong-tron-9", "grade": 9, "name": "Đường tròn & Tứ giác nội tiếp" },
+    { "key": "hinh-khong-gian-9", "grade": 9, "name": "Hình trụ, Hình nón & Hình cầu" },
+    { "key": "thong-ke-xac-suat-9", "grade": 9, "name": "Tần số, Tần số tương đối & Không gian mẫu" }
+  ]
+}

@@ -1,0 +1,30 @@
+HƯỚNG DẪN - WEBSITE ÔN LUYỆN TOÁN THCS (LỚP 6-9)
+
+1. GIẢI NÉN
+   Giải nén toàn bộ 3 file vào cùng một thư mục.
+
+2. YÊU CẦU
+   Máy Windows có cài Node.js phiên bản LTS: https://nodejs.org/
+   Chỉ cần cài một lần. KHÔNG cần npm install, KHÔNG cần Internet để luyện tập.
+
+3. KHỞI ĐỘNG
+   Nhấp đúp CHAY-WINDOWS.bat.
+   Trình duyệt sẽ tự mở: http://127.0.0.1:3000/
+   Nếu trình duyệt không tự mở, hãy tự nhập địa chỉ trên.
+   Giữ cửa sổ màu đen đang chạy để dùng website.
+
+4. DỪNG WEBSITE
+   Quay lại cửa sổ màu đen và nhấn Ctrl+C, hoặc đóng cửa sổ.
+
+5. TÍNH NĂNG
+   Chọn lớp 6, 7, 8, 9; luyện tập theo chủ đề; trắc nghiệm;
+   phản hồi đúng/sai; xem lời giải; điểm và thống kê trên trình duyệt.
+
+6. CHỈNH SỬA MÃ NGUỒN
+   Mở file on-luyen-toan-thcs.mjs bằng VS Code.
+   Biến HTML chứa toàn bộ giao diện HTML/CSS/JavaScript của website.
+   Sau khi sửa, lưu file rồi khởi động lại CHAY-WINDOWS.bat.
+
+7. GHI CHÚ
+   Website chạy CỤC BỘ trên chính máy tính, chưa phải website Internet công khai.
+   Mã nguồn không kết nối cơ sở dữ liệu hay tài khoản giáo viên/học sinh.
